@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgba(195, 221, 243, 0.795);
+}
+h1 {
+    background-image: linear-gradient(to top,rgb(52, 52, 231),rgba(10, 10, 104, 0.842),blue); 
+    border-radius: 10px;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-indent: 30px;
+
+}
+

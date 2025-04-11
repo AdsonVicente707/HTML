@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+div {
+    display: inline-block;
+    background-color: rgba(84, 88, 92, 0.473);
+    border: 1px solid black;
+    text-align: center;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+div:hover {
+    background-color: aquamarine;
+}
+

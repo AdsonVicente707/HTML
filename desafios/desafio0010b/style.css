@@ -1,0 +1,253 @@
+
+@charset "UTF-8";
+@font-face {
+    font-family:android ;
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal; 
+}
+@font-face {
+    font-family:bebas ;
+    src: url('fontes/BebasNeue-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal; 
+    
+}
+
+
+body {
+    background-color: #69a18ada;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ a.externo::after {
+    content: '\1F517';
+ }
+
+p {
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.4em;
+    font-size: 1.2em;
+}
+
+header {
+    background: linear-gradient(to top, #1a661a, #295729, #439643, #399e39, #52d172de);
+    height: 150px;
+   
+    padding-top: 40px;
+    position: fixed;
+    width: 100%;    
+    left: 0;
+    top: 0;
+    box-shadow: -8px 5px 5px 1px rgba(0, 0, 0, 0.2);
+    min-width: 280px;
+    min-height: 170px;
+   
+}
+
+header > h1 {
+    text-align: center;
+    font-family: bebas;
+    margin: 10px 0px 20px 0px;
+    color: white;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.2);
+    
+}
+header > p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: -20px;
+    color: white;
+   margin-top: -20px;
+   margin-bottom: 30px;
+   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.2);
+   
+    
+
+   
+  
+  
+   
+}
+
+header > nav > a {
+    
+    text-decoration: none;
+    color: rgb(73, 197, 49);
+    font-size: 17px;
+    padding: 10px;
+    font-family: bebas;
+    transition-duration: 0.5s;
+
+ 
+}   
+nav {
+    padding: 10px;
+}    
+header > nav {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: -20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    
+    
+}
+header > nav > a:hover {
+    
+    color: #1a2c05;
+    margin: 40px;
+    background-color: #81c98165;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+main {
+    padding-left: 10px;
+    padding-right:10px ;
+    padding-top: 200px;
+   background-color: aliceblue;
+   margin: auto;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   min-width: 340px;
+    max-width: 1000px;
+  
+}
+main strong {
+    color: #050805;
+   
+}
+main a {
+     background-color: #15da1560;
+    padding: 2px 5px;
+    text-decoration: none;
+    color: #133313;
+    border-radius: 5px;
+    padding: 2px 5px;
+}
+main a:hover {
+    
+    text-decoration: underline;
+    color: #4d8142;
+}  
+    
+main > h1 {
+    text-align: center;
+    font-family:android ;
+    color: #295729;
+}
+main > h2 {
+    
+    font-family:android ;
+    color: #295729;
+    margin: 0px 10px 0px 10px;
+    background-image: linear-gradient(to right, #62c06252, #8dc29b00);
+    border-radius: 5px;
+    padding: 5px 0;
+}
+main > h3 {
+    padding: 10px 0;
+    font-family:Arial, Helvetica, sans-serif ;
+    color: #fafafa;
+    background-color: #307e50cc;
+    border-radius: 10px 10px 0px 0px;
+    margin: 10px 10px 0px 10px;
+    bottom: 0px;
+    padding-left: 10px;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.705);
+    
+}
+article ul {
+    columns: 2;
+    list-style-type: '\2714';
+}
+main > article {
+    margin: 0px 10px 0px 10px;
+    padding: 0px;
+    background-color: #579b579c;
+    border-radius: 10px;
+    color: #050404;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.267);
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    border-radius: 0px 0px 10px 10px;
+    height: 400px;
+    overflow: hidden;
+    overflow-y: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+main > article > p {
+   
+    padding: 0px;
+    
+    margin:  0px;    
+    
+    
+}
+
+iframe {
+    display: block;
+    width: 100%;
+    height: 500px;
+    border: none;
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+}
+main img {
+    width: 100%;
+}
+main  img.pequena {
+   max-width: 350px;
+    display: block;
+    margin: auto;
+    
+  
+   
+}
+
+footer {
+    background-color: #0e270ebd;
+    color: white;
+    text-align: center;
+   display: block;
+   
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 50px;
+    
+   
+    margin-top: 10px;
+    margin-bottom: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    
+    
+}
+footer  a {
+
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    transition-duration: 0.5s;
+}
+footer  a:hover {
+    color: #1a2c05;
+    background-color: #81c98165;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+    
+
+
+    
+   
+    
+
