@@ -60,7 +60,7 @@ a {
     font-weight: bold;
 }
 a:hover {
-    color: #3aa8f1;
+    color: #ecc266;
 }
 section {
     font-family: gustavo;
@@ -71,22 +71,37 @@ section {
     padding-left: 30px;
 }
 
+section > p {
+    padding: 10px;
+}
+
 
 .normal {
-    background-color: #3aa8f1;
+    background-color: #dfb761;
     color: white;
 }
 .imagem {
     background-color:blueviolet;
     color: white;
+    box-shadow: inset 6px 6px 13px 0px #00000098;
+    background-attachment: fixed;
 }
 .imagem > p {
-    background-color: rgba(0, 0, 0, 0.26);
+    background-color: rgba(0, 0, 0, 0.575);
    display: inline-block;
    padding: 10px;
+   text-shadow: 2px 2px 0px #000000;
 }
-
-
+section#imag01 {
+    background-image: url('../imagens/shutterstock_1971700058.jpg');
+    background-position: center;
+    background-size: cover;
+}
+section#imag02 {
+    background-image: url('../imagens/beautiful-cacti-plant-with-desert-landscape-sunset.jpg');
+     background-position: center;
+    background-size: cover;
+}
 
 footer {
     background-color: black;
